@@ -3,7 +3,9 @@
     "type": "project",
     "require": {
         "mnsami/composer-custom-directory-installer": "2.0.x-dev",
-        "daniels/fuellogger": "dev-main"
+        "daniels/fuellogger": "dev-main",
+        "twbs/bootstrap":"^5.1",
+        "ajgl/composer-symlinker":"^0.3.1"
     },
     "license": "MIT",
     "authors": [
@@ -14,13 +16,21 @@
     ],
     "config": {
         "allow-plugins": {
-            "mnsami/composer-custom-directory-installer": true
+            "mnsami/composer-custom-directory-installer": true,
+            "ajgl/composer-symlinker": true
         }
     },
     "extra":{
         "installer-paths":{
             "./src": ["daniels/fuellogger"]
-      }
-    }
+        },
+        "ajgl-symlinks": {
+            "twbs/bootstrap": {
+                "dist/css": "src/assets/css/bootstrap",
+                "dist/js": "src/assets/js/bootstrap"
+            }
+        }
+    },
+    "minimum-stability": "dev"
 }
 
