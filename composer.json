@@ -2,9 +2,10 @@
     "name": "daniels/fuellogger-project",
     "type": "project",
     "require": {
-        "mnsami/composer-custom-directory-installer": "2.0.x-dev",
+        "mnsami/composer-custom-directory-installer": "^2.0",
         "daniels/fuellogger": "dev-main",
         "twbs/bootstrap":"^5.1",
+        "fortawesome/font-awesome":"^6.1",
         "ajgl/composer-symlinker":"^0.3.1"
     },
     "license": "MIT",
@@ -28,9 +29,12 @@
             "twbs/bootstrap": {
                 "dist/css": "src/assets/css/bootstrap",
                 "dist/js": "src/assets/js/bootstrap"
+            },
+            "fortawesome/font-awesome": {
+                "css": "src/assets/css/fontawesome",
+                "js": "src/assets/js/fontawesome"
             }
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
-
