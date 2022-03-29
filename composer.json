@@ -1,6 +1,19 @@
 {
     "name": "daniels/fuellogger-project",
     "type": "project",
+    "description": "fuel price monitor provides a webdashboard and a confiurable update notifier",
+    "keywords": [
+      "fuel prices",
+      "historical",
+      "graph",
+      "price update",
+      "notifier",
+      "webhook",
+      "CallMeBot",
+      "WhatsApp",
+      "Germany",
+      "MTS-K"
+    ],
     "require": {
         "mnsami/composer-custom-directory-installer": "^2.0",
         "daniels/fuellogger": "dev-main",
