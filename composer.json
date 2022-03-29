@@ -1,7 +1,7 @@
 {
     "name": "daniels/fuellogger-project",
     "type": "project",
-    "description": "fuel price monitor provides a webdashboard and a confiurable update notifier",
+    "description": "fuel price monitor provides a web dashboard and a configurable update notifier",
     "keywords": [
       "fuel prices",
       "historical",
