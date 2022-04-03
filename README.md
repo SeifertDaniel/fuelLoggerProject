@@ -3,7 +3,7 @@ Make sure that Composer is available.
 Create the project with this command:
 
 ```
-composer create project daniels/fuellogger-project
+composer create-project daniels/fuellogger-project mypath dev-main
 ```
 
 Create and complete the `.env` file from the template `.env.example`.
