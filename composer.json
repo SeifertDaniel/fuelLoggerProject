@@ -16,7 +16,7 @@
     ],
     "require": {
         "mnsami/composer-custom-directory-installer": "^2.0",
-        "daniels/fuellogger": "dev-main",
+        "daniels/fuellogger": "~0.1.0",
         "twbs/bootstrap":"^5.1",
         "fortawesome/font-awesome":"^6.1",
         "ajgl/composer-symlinker":"^0.3.1"
